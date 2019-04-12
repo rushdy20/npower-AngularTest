@@ -1,0 +1,28 @@
+.card {
+    margin-bottom: 30px
+}
+.product-cart {
+    
+}
+
+.card-footer {
+    padding: 0;
+}
+.cart-content{
+    height: 200px;
+    overflow: auto;
+}
+.cart-header {
+     height: 300px;
+     background-color: gray
+}
+.btn-blue {
+        
+   
+    color: #fff;
+    background-color: #007bff;
+    border-color: #007bff;
+    border: 1px solid transparent;    
+    border-radius: 0.25rem;
+   
+}

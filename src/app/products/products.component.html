@@ -1,0 +1,11 @@
+
+    <div class="product-component">
+      <ng-container *ngFor="let p of products  ; let i = index">
+        <div class="col">          
+            <product-card [product]="p" ></product-card>
+        </div>       
+      </ng-container>
+    </div> 
+ 
+
+<model-dialog ></model-dialog>

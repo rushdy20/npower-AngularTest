@@ -1,0 +1,14 @@
+<div id="ModalDialog" class="modal" *ngIf="visible ===true">
+
+  <!-- Modal content -->
+  <div class="modal-content">
+    <button class="close" (click)="closeModel()" aria-label="Close Modal">&times;</button>
+    <div >
+      <h5 class="heading-red" >{{modalData.title}}</h5>
+      {{modalData.content}}
+      
+  
+    </div>
+  </div>
+
+</div>
